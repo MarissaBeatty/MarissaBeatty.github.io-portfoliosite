@@ -8,6 +8,8 @@ body {
 h1 {
     font-size: 2rem;
     font-family: 'Cabin', sans-serif;
+    text-align: center;
+    color: darkSlateGrey;
 }
 
 .siteLinks {
@@ -23,4 +25,10 @@ h1 {
     flex-direction: column;
     justify-contents: center;
     align-items: center;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    color: darkCyan;
 }
