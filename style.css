@@ -1,17 +1,17 @@
 .clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
 
-body {
-    font-size: 1rem;
-    max-width: 1280px;
-}
 
 h1 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 3rem;
     font-family: 'Cabin', sans-serif;
     text-align: center;
     color: darkSlateGrey;
-    height: 200px;
+    height: 150px;
+    justify-content: center;
 }
 
 .siteLinks {
@@ -32,6 +32,11 @@ h1 {
 h2 {
     font-family: 'Poppins', sans-serif;
     width: 100%;
+    text-align: center;
     color: darkCyan;
     font-size: 2rem;
+}
+
+img {
+    box-shadow: 5px 5px 5px #777777;
 }
